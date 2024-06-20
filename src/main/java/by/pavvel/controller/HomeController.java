@@ -28,6 +28,6 @@ public class HomeController {
 
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.add("Content-Type", "application/json; charset=UTF-8");
-        return new ResponseEntity<>(s1, responseHeaders, HttpStatus.OK);
+        return new ResponseEntity<>(s2, responseHeaders, HttpStatus.OK);
     }
 }
