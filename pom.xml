@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.example</groupId>
-  <artifactId>rest</artifactId>
+  <groupId>by.pavvel</groupId>
+  <artifactId>jenkins-app</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>rest Maven Webapp</name>
@@ -28,7 +28,6 @@
 <!--      <scope>provided</scope>-->
 <!--    </dependency>-->
 
-    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
@@ -39,7 +38,7 @@
   </dependencies>
 
   <build>
-    <finalName>rest</finalName>
+    <finalName>jenkins-app</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (maybe moved to parent pom) -->
       <plugins>
         <plugin>
